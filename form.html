@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script language="javascript" type="text/javascript">
+		<!--
+		function validateForm(){
+			if(document.myform.fname.value == ""){
+				alert("Please provide your first name");
+				document.myform.fname.focus();
+				return false;
+			}
+
+			if (document.myform.lname.value == ""){
+				alert("Please provide your last name");
+				document.myform.lname.focus();
+				return false;
+			}
+
+			if (document.myform.phone.value == ""){
+				alert("please provide your phone number");
+				document.myform.phone.focus();
+				return false;
+			}
+			if (document.myform.country.value == ""){
+				alert("please provide your phone number");
+				document.myform.country.focus();
+				return false;
+			}
+		}
+//-->
+	</script>
+<title> Biography of Ryan Joseph Giggs </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="Ryan-Giggs-014.jpg" bgcolor="white" 
+text="cyan" link="blue" vlink="violet" alink="magenta">
+<H1> <B> <Center> To proceed to read the biography kindly please enter your details in the form below, Thank you.</Center> </B> </H1>
+
+<Form name="myform" Method="post" Action="URL" onsubmit="return validateForm()">
+	<p> First Name: <Input type="text" Name="fname"
+		maxlength="15"> </p>
+	<p> Last Name: <Input type="text" Name="lname"
+		maxlength="15"> </p>
+	<p> Phone Number: <input type="text" Name="phone"
+		maxlength="13"> </p>
+	<p> Nationality: <input type="Text" Name="country"
+		maxlenght="30"> </p>
+<font color="cyan">
+ <center><font size="+3"><b> press here to submit data;</b></font></center> <BR>
+ <p><center><div id="button" onclick="validateForm()" value="Please provide your first name"><a href="ryan giggs.html"><font color="black"><font size="-1">Go to Biography</font></font></a></div></center></p>
+	<center><input type="reset" Value="Reset data"></center>
+</body>
+</html>
